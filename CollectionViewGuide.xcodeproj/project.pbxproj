@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					E87E6CE71D19DE6900674D1D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 68J9ZAVZL2;
+						DevelopmentTeam = BGW2E4S7A9;
 					};
 					E87E6CFB1D19DE6900674D1D = {
 						CreatedOnToolsVersion = 7.3;
@@ -428,7 +428,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CollectionViewGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jpa.CollectionViewGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollectionViewGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -442,7 +442,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CollectionViewGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jpa.CollectionViewGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollectionViewGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -513,6 +513,7 @@
 				E87E6D121D19DE6900674D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87E6D131D19DE6900674D1D /* Build configuration list for PBXNativeTarget "CollectionViewGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				E87E6D151D19DE6900674D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87E6D161D19DE6900674D1D /* Build configuration list for PBXNativeTarget "CollectionViewGuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				E87E6D181D19DE6900674D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

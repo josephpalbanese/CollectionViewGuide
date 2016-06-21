@@ -26,9 +26,7 @@ class LibraryViewController: UIViewController, UICollectionViewDataSource {
 
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        var burstCount = burstsManager.getAllBursts().count
-        
+        let burstCount = burstsManager.getAllBursts().count
         print(burstCount)
         
         if burstCount == 0 {
@@ -36,19 +34,15 @@ class LibraryViewController: UIViewController, UICollectionViewDataSource {
         } else {
             return burstCount
         }
-        
-        return burstsManager.getAllBursts().count
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("BurstPreviewCell", forIndexPath: indexPath) as! BurstPreviewCell
-        
-        if indexPath.item == 3 {
-            cell.previewLabel.text = "fourth"
-        } else{
-            cell.previewLabel.text = "else"
-        }
+        let allBursts = burstsManager.getAllBursts()
+        burstsManager.getBurstCoverImage(allBursts[indexPath.item], size: CGSize(width: 200, height: 200), contentMode: .AspectFit, callback: { (image) in
+            cell.previewImageView.image = image
+        })
         
         return cell
     }

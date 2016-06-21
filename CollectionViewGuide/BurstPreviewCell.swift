@@ -10,5 +10,5 @@ import UIKit
 
 class BurstPreviewCell: UICollectionViewCell {
     
-    @IBOutlet weak var previewLabel: UILabel!
+    @IBOutlet weak var previewImageView: UIImageView!
 }
