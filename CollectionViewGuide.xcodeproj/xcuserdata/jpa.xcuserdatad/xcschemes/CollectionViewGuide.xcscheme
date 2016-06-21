@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E87E6CE71D19DE6900674D1D"
+               BuildableName = "CollectionViewGuide.app"
+               BlueprintName = "CollectionViewGuide"
+               ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E87E6CFB1D19DE6900674D1D"
+               BuildableName = "CollectionViewGuideTests.xctest"
+               BlueprintName = "CollectionViewGuideTests"
+               ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E87E6D061D19DE6900674D1D"
+               BuildableName = "CollectionViewGuideUITests.xctest"
+               BlueprintName = "CollectionViewGuideUITests"
+               ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E87E6CE71D19DE6900674D1D"
+            BuildableName = "CollectionViewGuide.app"
+            BlueprintName = "CollectionViewGuide"
+            ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E87E6CE71D19DE6900674D1D"
+            BuildableName = "CollectionViewGuide.app"
+            BlueprintName = "CollectionViewGuide"
+            ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E87E6CE71D19DE6900674D1D"
+            BuildableName = "CollectionViewGuide.app"
+            BlueprintName = "CollectionViewGuide"
+            ReferencedContainer = "container:CollectionViewGuide.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
